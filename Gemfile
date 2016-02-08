@@ -43,7 +43,8 @@ gem 'rails_12factor', group: :production
 
 group :developent, :test do
 	gem 'rspec-rails', '~> 3.0'
-end
+	gem 'factory_girl_rails', '~> 4.0'
+end	
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
