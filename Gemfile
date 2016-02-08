@@ -36,6 +36,8 @@ gem 'sass-rails'
 #Add Simple Form
 gem 'simple_form'
 
+gem 'devise', '>= 3.2.4'
+
 # rails 12factor speed up load times and see heroku errors
 gem 'rails_12factor', group: :production
 
