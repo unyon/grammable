@@ -38,6 +38,11 @@ gem 'simple_form'
 
 gem 'devise', '>= 3.2.4'
 
+gem 'carrierwave'
+gem 'carrierwave-aws'
+gem 'figaro'
+gem 'mini_magick', '~> 4.3.1'
+
 # rails 12factor speed up load times and see heroku errors
 gem 'rails_12factor', group: :production
 

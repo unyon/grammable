@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+  <%= link_to 'Add a Gram', new_gram_path %>
   <% if current_user %>
     You're signed in as <%= current_user.email %>.
     <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
